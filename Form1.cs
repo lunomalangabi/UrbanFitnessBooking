@@ -70,7 +70,7 @@ namespace TestPracVANDAG
 
                     if (blnValidSessType)
                     {
-                        intHrsBooked = Convert.ToInt32(InputBox("Please eneter the hours booked", "Hours booked", "")); //Get the hours booked- intialisation
+                        intHrsBooked = Convert.ToInt32(InputBox("Please eneter the hours booked (5+ hours receive a 2% discount)", "Hours booked", "")); //Get the hours booked- intialisation
 
                         dblSessAmnt = CalcSessAmnt(intHrsBooked, strSessType);
 
